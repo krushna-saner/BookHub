@@ -11,14 +11,14 @@ const HomePage = ({ category, searchQuery, addToCart }) => {
       try {
         setLoading(true);
 
-        let url = "http://localhost:8080/books";
+        let url = "https://bookhub-backend-0ne6.onrender.com/books";
 
         if (category !== "All") {
-          url = `http://localhost:8080/books/category/${category}`;
+          url = `https://bookhub-backend-0ne6.onrender.com/books/category/${category}`;
         }
 
         if (searchQuery) {
-          url = `http://localhost:8080/books/search?name=${searchQuery}`;
+          url = `https://bookhub-backend-0ne6.onrender.com/books/search?name=${searchQuery}`;
         }
 
         const res = await axios.get(url);

@@ -18,7 +18,7 @@ const OrderHistory = () => {
         return;
       }
 
-      const res = await axios.get("http://localhost:8080/orders", {
+      const res = await axios.get("https://bookhub-backend-0ne6.onrender.com/orders", {
         headers: {
           Authorization: `Bearer ${token}`,
         },

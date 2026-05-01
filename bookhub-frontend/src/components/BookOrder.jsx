@@ -70,7 +70,7 @@ useEffect(() => {
         status: "PENDING",
       };
 
-      await axios.post("http://localhost:8080/orders", orderData, {
+      await axios.post("https://bookhub-backend-0ne6.onrender.com/orders", orderData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

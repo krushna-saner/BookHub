@@ -15,7 +15,7 @@ const AdminPanel = () => {
     try {
       const token = localStorage.getItem("token");
 
-      const res = await axios.get("http://localhost:8080/orders/admin", {
+      const res = await axios.get("https://bookhub-backend-0ne6.onrender.com/orders/admin", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -32,7 +32,7 @@ const AdminPanel = () => {
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:8080/orders/${id}/status?status=${status}`,
+        `https://bookhub-backend-0ne6.onrender.com/orders/${id}/status?status=${status}`,
         {},
         {
           headers: {

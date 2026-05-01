@@ -16,7 +16,7 @@ const Login = ({ setIsLoggedIn }) => {
     try {
       const normalizedEmail = email.trim().toLowerCase(); 
 
-      const res = await axios.post("http://localhost:8080/auth/login", {
+      const res = await axios.post("https://bookhub-backend-0ne6.onrender.com/auth/login", {
         email: normalizedEmail,
         password,
       });
@@ -37,7 +37,7 @@ const Login = ({ setIsLoggedIn }) => {
     try {
       const normalizedEmail = email.trim().toLowerCase(); 
 
-      await axios.post("http://localhost:8080/auth/signup", {
+      await axios.post("https://bookhub-backend-0ne6.onrender.com/auth/signup", {
         name,
         email: normalizedEmail,
         password,
