@@ -9,7 +9,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/books")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://book-hub-snowy.vercel.app"
+})
 public class BookController {
 
     @Autowired
