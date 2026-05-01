@@ -1,0 +1,17 @@
+.container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.dropdown {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

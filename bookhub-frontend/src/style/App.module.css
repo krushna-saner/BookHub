@@ -1,0 +1,24 @@
+
+.pageContainer {
+  background: #f9fafb;
+  color: #111827;
+  transition: all 0.3s ease;
+}
+
+
+.dark {
+  background: #0b1220;
+  color: #e5e7eb;
+}
+
+
+.dark a {
+  color: #e5e7eb;
+}
+
+.dark input,
+.dark textarea {
+  background: #111827;
+  color: #fff;
+  border: 1px solid #374151;
+}

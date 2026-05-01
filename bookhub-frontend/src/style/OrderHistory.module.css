@@ -1,0 +1,115 @@
+ .container {
+  padding: 30px;
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text);
+  font-weight: 700;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 14px;
+
+  box-shadow: 0 10px 25px var(--shadow);
+  border: 1px solid var(--border);
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(16,185,129,0.15);
+}
+
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+
+.status {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+
+  font-size: 12px;
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}
+
+
+.PENDING {
+  background: #facc15;
+  color: #111;
+}
+
+.SHIPPED {
+  background: var(--secondary);
+  color: white;
+}
+
+.DELIVERED {
+  background: var(--primary);
+  color: white;
+}
+
+.CANCELLED {
+  background: #ef4444;
+  color: white;
+}
+
+
+.info {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: var(--muted);
+}
+
+
+.books {
+  background: var(--bg-secondary);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.bookItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: var(--text);
+}
+
+
+.total {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text);
+}
+
+
+.empty {
+  text-align: center;
+  font-size: 18px;
+  color: var(--text);
+}

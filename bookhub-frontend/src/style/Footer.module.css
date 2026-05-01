@@ -1,0 +1,56 @@
+.footer {
+  background: var(--footer-bg);
+  color: var(--text);
+
+  padding: 35px 20px;
+  text-align: center;
+
+  border-top: 1px solid var(--border);
+}
+
+.section {
+  margin-bottom: 15px;
+  color: var(--text);
+}
+
+.subscribeBtn {
+  background: linear-gradient(135deg, #38bdf8, #10b981);
+  color: white;
+
+  padding: 10px 16px;
+  border-radius: 25px;
+
+  border: none;
+  cursor: pointer;
+
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.subscribeBtn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 25px rgba(56,189,248,0.25);
+}
+
+.bottomBar {
+  margin-top: 20px;
+  font-size: 14px;
+
+  color: var(--muted);
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 18px;
+  margin-top: 12px;
+  margin-bottom:12px;
+}
+
+.socialIcons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

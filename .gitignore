@@ -1,0 +1,35 @@
+# ========================
+# Node / React (Frontend)
+# ========================
+bookhub-frontend/node_modules/
+bookhub-frontend/build/
+bookhub-frontend/dist/
+bookhub-frontend/.env
+bookhub-frontend/.env.local
+
+# ========================
+# Java / Spring Boot (Backend)
+# ========================
+bookhub-backend/target/
+bookhub-backend/.idea/
+bookhub-backend/*.iml
+bookhub-backend/.classpath
+bookhub-backend/.project
+bookhub-backend/.settings/
+bookhub-backend/.env
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE
+# ========================
+.vscode/
